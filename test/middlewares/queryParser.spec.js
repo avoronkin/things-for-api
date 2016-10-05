@@ -1,7 +1,7 @@
 /* eslint consistent-return: 0 */
 const assert = require('assert');
 const httpMocks = require('node-mocks-http');
-const queryParser = require('../../lib/middlewares/queryParser');
+const queryParser = require('../../lib').middlewares.queryParser;
 
 describe('queryParser middleware', () => {
   it('should parse query', (done) => {

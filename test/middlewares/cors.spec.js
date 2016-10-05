@@ -1,6 +1,6 @@
 /* eslint no-underscore-dangle: 0, consistent-return: 0 */
 const assert = require('assert');
-const cors = require('../../lib/middlewares/cors');
+const cors = require('../../lib').middlewares.cors;
 const httpMocks = require('node-mocks-http');
 
 describe('cors middleware', () => {

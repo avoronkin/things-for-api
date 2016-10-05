@@ -1,7 +1,7 @@
 /* eslint no-underscore-dangle: 0, consistent-return: 0 */
 const assert = require('assert');
 const boom = require('boom');
-const errorHandler = require('../../lib/middlewares/errorHandler');
+const errorHandler = require('../../lib').middlewares.errorHandler;
 const EventEmitter = require('events').EventEmitter;
 const httpMocks = require('node-mocks-http');
 const sinon = require('sinon');
